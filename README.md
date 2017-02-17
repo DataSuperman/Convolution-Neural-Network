@@ -8,8 +8,7 @@ properly.
 # Training 
 MyNeuralNetworkTrain class under the test folder, all the hyperparameters can be defined there. Just a thing this class saves 
 all the weights under weights folder. Typically if a folder is named as "weights-16.20000" it means the network is stored for 
-which validation accuracy was 16.20000% . Everytime one stops the network, weights are saved inside the folder and if you restart 
-the  MyNeuralNetworkTrain class it will start from those weights. If you want to start from random initialization just delete
+which validation accuracy was 16.20000% .Current weights are saved under weights folder. Everytime one stops the network, weights are saved inside the folder and if you restart the MyNeuralNetworkTrain class it will start from those weights. If you want to start from random initialization just delete
 all 4 files under weights folder.
 
 # Test
