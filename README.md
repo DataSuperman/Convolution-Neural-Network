@@ -12,10 +12,13 @@ which validation accuracy was 16.20000% . Everytime one stops the network, weigh
 the  MyNeuralNetworkTrain class it will start from those weights. If you want to start from random initialization just delete
 all 4 files under weights folder.
 
-#Test
+# Test
 MyNeuralNetworkTest : This class does the forward pass only and  predicts the labels, output values are saved in in the "Yte.csv" 
 file under test folder. One can specify which accuracy weight folder he/she wants to use simply by changing the name of the folder 
 inside.
 
 
 This project is best viewed with IntelliJ IDE.
+
+# Helper Files
+All the files under the Mosig folder are the helper files for the project to run.
